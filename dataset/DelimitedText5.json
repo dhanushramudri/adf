@@ -10,10 +10,6 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": {
-					"value": "@variables('excelsheets')",
-					"type": "Expression"
-				},
 				"folderPath": "foreachoutputs",
 				"container": "container1"
 			},

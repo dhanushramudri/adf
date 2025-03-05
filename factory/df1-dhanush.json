@@ -1,0 +1,9 @@
+{
+	"name": "df1-dhanush",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "eaf8f852-3b85-4f5b-a120-e10183fa5807",
+		"tenantId": "2800c0a0-70e9-49be-8733-faeaa6aced99"
+	}
+}

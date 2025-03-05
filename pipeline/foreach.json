@@ -11,7 +11,7 @@
 						"value": "@variables('excelsheets')",
 						"type": "Expression"
 					},
-					"isSequential": false,
+					"isSequential": true,
 					"activities": [
 						{
 							"name": "Copy data1",
@@ -63,7 +63,7 @@
 							],
 							"outputs": [
 								{
-									"referenceName": "DelimitedText4",
+									"referenceName": "DelimitedText5",
 									"type": "DatasetReference"
 								}
 							]
@@ -74,8 +74,12 @@
 		],
 		"variables": {
 			"excelsheets": {
-				"type": "String",
-				"defaultValue": "[\"Orders\",\"Stores\",\"TaxRates\"]"
+				"type": "Array",
+				"defaultValue": [
+					"Orders",
+					"Stores",
+					"TaxRates"
+				]
 			}
 		},
 		"annotations": []
